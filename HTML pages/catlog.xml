@@ -1,0 +1,181 @@
+x<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catlog.xsl"?>
+<catalog>
+  <cd>
+    <product>Hot and Fresh</product>
+    <price>150</price>
+  </cd>
+  <cd>
+    <product>Creamy Tomato</product>
+    <price>100</price>
+  </cd>
+  <cd>
+    <product>Paneer</product>
+    <price>150</price>
+  </cd>
+  <cd>
+    <product>Chicken Sausage</product>
+    <price>180</price>
+  </cd>
+  <cd>
+    <product>Farmhouse</product>
+    <price>100</price>
+  </cd>
+  <cd>
+    <product>Roti taccos</product>
+    <price>200</price>
+  </cd>
+  <cd>
+    <product>Mexican taccos</product>
+    <price>300</price>
+  </cd>
+  <cd>
+    <product>Chicken Burger</product>
+    <price>350</price>
+  </cd>  <cd>
+    <product>Veg Burger</product>
+    <price>200</price>
+  </cd>  <cd>
+    <product>Noodles Frankie</product>
+    <price>150</price>
+  </cd>  <cd>
+    <product>Paneer Frankie</product>
+    <price>150</price>
+  </cd>  <cd>
+    <product>Manchurian Frankie</product>
+    <price>200</price>
+  </cd>  <cd>
+    <product>Shezwan Frankie</product>
+    <price>150</price>
+  </cd>  <cd>
+    <product>Chicken Lollipop</product>
+    <price>200</price>
+  </cd>  <cd>
+    <product>Shezwan Lollipop</product>
+    <price>280</price>
+  </cd>  <cd>
+    <product>Chicken Kebab</product>
+    <price>200</price>
+  </cd>  <cd>
+    <product>Shezwan Kebab</product>
+    <price>280</price>
+  </cd>  <cd>
+    <product>Spring Roll</product>
+    <price>120</price>
+  </cd>  <cd>
+    <product>Egg Roll</product>
+    <price>200</price>
+  </cd>  <cd>
+    <product>Indian Meal</product>
+    <price>200</price>
+  </cd>  <cd>
+    <product>Indian Thali</product>
+    <price>150</price>
+  </cd>  <cd>
+    <product>Mexican Meal - Egg Fry</product>
+    <price>200</price>
+  </cd>  <cd>
+    <product>Mexican Meal</product>
+    <price>300</price>
+  </cd>  <cd>
+    <product>Italian Noodles</product>
+    <price>250</price>
+  </cd>  
+  <cd>
+    <product>Red Sauce Pasta</product>
+    <price>300</price>
+  </cd>
+  <cd>
+    <product>Paani Puri</product>
+    <price>120</price>
+  </cd>
+  <cd>
+    <product>Dahi Puri</product>
+    <price>160</price>
+  </cd>
+  <cd>
+    <product>Namkeen Bhel</product>
+    <price>100</price>
+  </cd>
+  <cd>
+    <product>Kaccha Bhel</product>
+    <price>130</price>
+  </cd>
+  <cd>
+    <product>Dahi Bhel</product>
+    <price>150</price>
+  </cd>
+  <cd>
+    <product>Red Sauce Pasta</product>
+    <price>300</price>
+  </cd>
+  <cd>
+    <product>Strawberry Shake</product>
+    <price>150</price>
+  </cd>
+  <cd>
+    <product>Mocha Milk Shake</product>
+    <price>300</price>
+  </cd>
+  <cd>
+    <product>Orea Milk Shake</product>
+    <price>200</price>
+  </cd>
+  <cd>
+    <product>Chocolate Shake</product>
+    <price>150</price>
+  </cd>
+  <cd>
+    <product>Black Forest Cake</product>
+    <price>200</price>
+  </cd>
+  <cd>
+    <product>Pineapple Cake</product>
+    <price>250</price>
+  </cd>
+  <cd>
+    <product>Dutch Truffle Cake</product>
+    <price>300</price>
+  </cd>
+  <cd>
+    <product>Butterscotch Cake</product>
+    <price>200</price>
+  </cd>
+  <cd>
+    <product>Straberry Cake</product>
+    <price>200</price>
+  </cd>
+  <cd>
+    <product>Chocolate Crackle Cake</product>
+    <price>150</price>
+  </cd>
+  <cd>
+    <product>Chocolate Brownie</product>
+    <price>250</price>
+  </cd>
+  <cd>
+    <product>Chocolate Vanilla Brownie</product>
+    <price>310</price>
+  </cd>
+  <cd>
+    <product>Vanilla Ice Cream</product>
+    <price>80</price>
+  </cd>
+  <cd>
+    <product>Chocolate Ice Cream</product>
+    <price>100</price>
+  </cd>
+  <cd>
+    <product>Straberry Ice Cream</product>
+    <price>80</price>
+  </cd>
+  <cd>
+    <product>Choco Chip Ice Cream</product>
+    <price>120</price>
+  </cd>
+  <cd>
+    <product>Pista Ice Cream</product>
+    <price>90</price>
+  </cd>
+</catalog>
+

@@ -1,0 +1,302 @@
+<html>
+<head>
+	<title>Food ordering</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+
+</head>
+
+<body>
+	<div class="headmain"> 
+		<div class="headleft">
+			<img src="logo/logo1.png" height="100px" width="200px">
+		</div>
+		<div class="headright">
+			<br>
+			<button class="button button1">Cuisines <i class="fa fa-cutlery" style="font-size:24px"></i></button>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<button class="button button1" id="register">Sign Up <i class="fa fa-user-plus" style="font-size:24px"></i></button>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<button class="button button1" id="login">Login <i class="fa fa-sign-in" style="font-size:24px"></i></button>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- 			<button class="button button1" id="contactus" onclick="switchVisible();">Contact Us <i class="fa fa-phone" style="font-size:24px"></i></button>	
+
+
+ 		<input id="Button1" type="button" value="Click" onclick="switchVisible();"/>
+ 	-->
+ 		</div>
+	</div>
+	<div class="divmarquee">
+		<marquee behavior="alternate" scrollamount="16"><p style="font-family: impact; color: red; font-size: 20;">20% off on all deserts</p></marquee>
+	</div>
+	<div class="divmain"> 
+		<div class="divcategory">
+			<button class="accordion">Junk</button>
+			<div class="panel">
+			  <p>Pizza</p>
+			  <p>Taccos</p>
+			  <p>Burger</p>
+			  <p>Frankie</p>
+			</div>
+			<button class="accordion">Starters</button>
+			<div class="panel">
+			  <p>Lollipop</p>
+			  <p>Kebabs</p>
+			  <p>Rolls</p>
+			</div>
+			<button class="accordion">Main Course</button>
+			<div class="panel">
+			  <p>Indian</p>
+			  <p>Maxican</p>
+			  <p>Italian</p>
+			</div>
+			<button class="accordion">Chats</button>
+			<div class="panel">
+			  <p>Pani Puri</p>
+			  <p>Bhel</p>
+			</div>
+			<button class="accordion">Deserts</button>
+			<div class="panel">
+			  <p>Shakes</p>
+			  <p>Cakes</p>
+			  <p>Brownie</p>
+			  <p>Icecream</p>
+			</div>
+		</div>
+		<div class="divcontent">
+			<h3><center>Contact Us</h3><br>
+			<form name="myform">
+			 <fieldset>
+			  <legend><b>First Name</legend>
+			  <input type="text" id="fname" name="fname"><br><br>
+			 </fieldset><br>
+			 <fieldset>
+			  <legend>Email Address</legend>
+			  <input type="text" id="email" name="email"><br><br>
+			 </fieldset>
+			 <fieldset>
+			  <legend>Mobile No</legend>
+			  <input type="text" id="number" name="number"><br><br>
+			 </fieldset> <br>
+			 <fieldset>
+			  <legend>Type Text</legend>
+			 <textarea rows="4" cols="50" placeholder="Type Something" id="info" name="info"></textarea><br><br>
+			 </fieldset><br>
+			 <input type="button" value="Submit" onclick="validate()" style="border-radius: 12px; font-size: 20px; font-weight: bold;">
+			</form>		
+		</div>
+			<script>
+				function validate(){
+
+					var name = document.myform.fname.value;
+					var email = document.myform.email.value;
+					var phno = document.myform.number.value;
+					var info = document.myform.info.value;
+
+					var atposition=email.indexOf("@");  
+					var dotposition=email.lastIndexOf("."); 
+
+		      //var numbers = /^[0-9]+$/;
+
+
+					if(name == "")
+					{
+						alert("Name should be filled");
+					}
+					else if(email == "")
+					{
+						alert("Email should be filled");
+					}
+  				else if (phno == "")
+					{  
+						alert("Phone number should be filled");
+  				}
+					else if(info == "")
+					{
+						alert("Some input should be filled");
+					}
+					else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length)
+  				{  
+  					alert("Please enter a valid e-mail address");  
+  				}
+  				else if (isNaN(phno))
+  				{
+  					alert("Phone number should be numeric")
+  				} 
+					else 
+					{
+						alert("Response submitted successfully ");
+					}
+
+				}
+			</script>		
+
+<!-- 		<div id="ContactUs">
+			<form>
+				 <fieldset>
+				  <legend><b>First Name</legend>
+				  <input type="text" id="fname" name="fname"><br><br>
+				 </fieldset><br>
+				 <fieldset>
+				  <legend>Email Address</legend>
+				  <input type="text" id="fname" name="fname"><br><br>
+				 </fieldset>
+				 <fieldset>
+				  <legend>Mobile No</legend>
+				  <input type="text" id="fname" name="fname"><br><br>
+				 </fieldset> 
+				 <fieldset>
+				  <legend>Type Text</legend>
+				 <textarea rows="4" cols="50"></textarea><br><br>
+				 </fieldset>
+			</form>
+		</div>
+
+		<script>
+			function switchVisible() {
+			            if (document.getElementById('divcontent')) {
+
+			                if (document.getElementById('divcontent').style.display == 'none') {
+			                    document.getElementById('divcontent').style.display = 'block';
+			                    document.getElementById('ContactUs').style.display = 'none';
+			                }
+			                else {
+			                    document.getElementById('divcontent').style.display = 'none';
+			                    document.getElementById('ContactUs').style.display = 'block';
+			                }
+			            }
+			}
+		</script>
+ -->
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+			<center><img src="logo\logo1.png" width="200px" height="100px"><br>
+			<h3><b>Login</b></h3></center>		
+		    <div class="form-style-5">
+		    		<form method="post">
+				<fieldset>
+				<input type="text" name="cusername" placeholder="Username">
+				<input type="password" name="cpass" placeholder="Password">
+				</fieldset>
+				<input type="submit" value="Login" />
+				</form>
+			</div>
+		  </div>
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+			<center><img src="logo\logo1.png" width="200px" height="100px"><br>
+			<h3><b>Login</b></h3></center>		
+		    <div class="form-style-5">
+		<form>
+		<fieldset>
+		<legend><span class="number" style="color: white">1</span> Candidate Info</legend>
+		<input type="text" name="cname" placeholder="Your Name *" /required>
+		<input type="email" name="cemail" placeholder="Your Email *"/required>
+		<input type="number" name="cpho" placeholder="Your Number *" maxlength="9999999999" required>
+		<textarea name="cinfo" placeholder="About yourself"/required></textarea>
+		</fieldset>
+		<fieldset>
+		<legend><span class="number" style="color: white">2</span> Additional Info</legend>
+		<textarea style="resize: none;" name="cschool" placeholder="About Your School"/required></textarea>
+		<textarea style="resize: none;" name="chobby" placeholder="Your Hobby"/required></textarea>
+		</fieldset>
+		<fieldset>
+		<legend><span class="number" style="color: white">3</span> Login Credentials </legend>
+		<input type="text" name="cusername" placeholder="Username"/required>
+		<input type="password" name="cpass" placeholder="Alphanumeric Password "/required>
+		<input type="password" name="cpassconfirm" placeholder="Confirm Password "/required>
+		</fieldset>
+		<input type="submit" value="Apply" name="buttonl" />
+		</form>
+			</div>
+		  </div>
+
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("login");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal 
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+		</script>
+		<script>
+		// Get the modal
+		var modal1 = document.getElementById("myModal");
+
+		// Get the button that opens the modal
+		var btn1 = document.getElementById("register");
+
+		// Get the <span> element that closes the modal
+		var span1 = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal 
+		btn1.onclick = function() {
+		  modal1.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span1.onclick = function() {
+		  modal1.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal1) {
+		    modal1.style.display = "none";
+		  }
+		}
+		</script>
+	</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
